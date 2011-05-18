@@ -1,0 +1,35 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Firstname:</b>
+  <%= @enduser.firstname %>
+</p>
+
+<p>
+  <b>Lastname:</b>
+  <%= @enduser.lastname %>
+</p>
+
+<p>
+  <b>Platenumber:</b>
+  <%= @enduser.platenumber %>
+</p>
+
+<p>
+  <b>Email:</b>
+  <%= @enduser.email %>
+</p>
+
+<p>
+  <b>Address:</b>
+  <%= @enduser.address %>
+</p>
+
+<p>
+  <b>Telephone:</b>
+  <%= @enduser.telephone %>
+</p>
+
+
+<%= link_to 'Edit', edit_enduser_path(@enduser) %> |
+<%= link_to 'Back', endusers_path %>
